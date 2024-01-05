@@ -8,7 +8,7 @@
     <authors>Francesco Sparviero</authors>
     <owners>Optum</owners>
     <iconUrl>https://rawcdn.githack.com/RedisInsight/RedisInsight/ac19ddc9b5a93e11e76dd61aa513e024b2e50ac9/resources/icons/32x32.png</iconUrl>
-    <description>RedisInsight is a free and intuitive GUI for Redis123that lets you query, visualize, and interact with your data14253. It supports CRUD operations for various data structures5and built-in support for most popular Redis modules. It also allows you to troubleshoot, debug, and optimize your Redis or Redis Stack database13using diagnostic tools and advanced command line interface</description>
+    <description>RedisInsight is a free and intuitive GUI for Redis123that lets you query, visualize, and interact with your data14253. It supports CRUD operations for various data structures5and built-in support for most popular Redis modules. It also allows you to troubleshoot, debug, and optimize your Redis or Redis Stack database using diagnostic tools and advanced command line interface</description>
     <licenseUrl>https://redis.io/docs/about/license/</licenseUrl>
     <packageSourceUrl>https://community.chocolatey.org/packages/redis-insight-v2/2.0.0</packageSourceUrl>
     <projectUrl>https://redis.com/redis-enterprise/redis-insight/</projectUrl>
