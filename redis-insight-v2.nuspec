@@ -14,6 +14,7 @@
     <projectUrl>https://redis.com/redis-enterprise/redis-insight/</projectUrl>
     <releaseNotes>release 2.1 with the required packaged info</releaseNotes>
     <summary>redis insight 2.0 packaged for chocolatey</summary>
+    <tags>redis insight database</tags>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
