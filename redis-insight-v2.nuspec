@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>redis-insight-v2</id>
+    <version>2.0</version>
+    <title>redis-insight-v2 (Install)</title>
+    <authors>Francesco Sparviero</authors>
+    <owners>Optum</owners>
+    <iconUrl>https://rawcdn.githack.com/RedisInsight/RedisInsight/ac19ddc9b5a93e11e76dd61aa513e024b2e50ac9/resources/icons/32x32.png</iconUrl>
+    <description>RedisInsight is a free and intuitive GUI for Redis123that lets you query, visualize, and interact with your data14253. It supports CRUD operations for various data structures5and built-in support for most popular Redis modules. It also allows you to troubleshoot, debug, and optimize your Redis or Redis Stack database13using diagnostic tools and advanced command line interface</description>
+    <licenseUrl>https://redis.io/docs/about/license/</licenseUrl>
+    <packageSourceUrl>https://community.chocolatey.org/packages/redis-insight-v2/2.0.0</packageSourceUrl>
+    <projectUrl>https://redis.com/redis-enterprise/redis-insight/</projectUrl>
+    <releaseNotes>release 2.1 with the required packaged info</releaseNotes>
+    <summary>redis insight 2.0 packaged for chocolatey</summary>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
