@@ -217,8 +217,10 @@ switch( hostname ){
 			$packages += "sql-server-management-studio"
 			$packages += "mongodb-compass"
 			$packages += "dotnet"
-			$packages += "dotnetcore"
-		#redis cli
+			$packages += "dotnetcore 
+                        $packages += "redis-insight-v2 --version=2.0.0"		
+			
+       #redis cli
 		$url = "https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.msi"
 		$fileName = $url.split("/")[-1]
 		$Outfile = "$($env:TEMP)\$($fileName)"
