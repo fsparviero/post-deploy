@@ -218,20 +218,20 @@ switch( hostname ){
 			$packages += "mongodb-compass"
 			$packages += "dotnet"
 			$packages += "dotnetcore 
-                        $packages += "redis-insight-v2 --version=2.0.0"		
+                        #$packages += "redis-insight-v2 --version=2.0.0"		
 			
        #redis cli
-		$url = "https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.msi"
-		$fileName = $url.split("/")[-1]
-		$Outfile = "$($env:TEMP)\$($fileName)"
-		Write-Host "Downloading $($fileName)..." -Foregroundcolor Yellow
-		Invoke-WebRequest -Uri $url -Outfile $Outfile
-		if(Test-Path $Outfile){
-		  Write-Host "Installing $($fileName)..." -Foregroundcolor Yellow
-		 $arguments = @("/I $($Outfile)", "/quiet")
-		 Start-Process msiexec.exe -ArgumentList $arguments -Wait
-		}
-	}
+       #		$url = "https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.msi"
+	#	$fileName = $url.split("/")[-1]
+	#	$Outfile = "$($env:TEMP)\$($fileName)"
+	#	Write-Host "Downloading $($fileName)..." -Foregroundcolor Yellow
+	#	Invoke-WebRequest -Uri $url -Outfile $Outfile
+	#	if(Test-Path $Outfile){
+	#	  Write-Host "Installing $($fileName)..." -Foregroundcolor Yellow
+	#	 $arguments = @("/I $($Outfile)", "/quiet")
+	#	 Start-Process msiexec.exe -ArgumentList $arguments -Wait
+	#	}
+	#}
 	{$_ -match "infra"}{
 		write-host "Infra vm detected, selecting software" -Foregroundcolor Green
 		#Infra team software
